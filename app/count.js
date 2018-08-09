@@ -13,12 +13,11 @@ define(function () {
 		  }
 		}, 100);	
 		
-		//get this to work
-		//function cancel(){
-		//	clearInterval(timer);
-		//}
+		function cancel(){
+			clearInterval(timer);
+		};
 		
-		
+		return {cancel: cancel};
 		
     }
   };
