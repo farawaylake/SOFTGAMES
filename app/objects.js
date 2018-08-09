@@ -7,13 +7,7 @@ define(function() {
     },
 
     alterObjects : function(constructor, greeting) {
-
 	
-		constructor.defineProperty = [greeting,"greeting"];
-		
-		console.log(constructor);
-	
-
     },
 
     iterate : function(obj) {
